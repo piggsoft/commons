@@ -20,7 +20,7 @@ public class TestFile {
 	@Test
 	public void test1() throws FileNotFoundException, IOException {
 		String s = "";
-		s = FileCopyUtils.copyToString(new FileReader(ResourceUtils.getFile("classpath:Copy of logback.xml")));
+		s = FileCopyUtils.copyToString(new FileReader(ResourceUtils.getFile("classpath:logback.xml")));
 		System.out.println(s);
 	}
 }
