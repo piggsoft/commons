@@ -18,13 +18,13 @@ public abstract class ElementTag extends SimpleTagSupport {
 
 	protected String whiteSpace = " ";
 
-	public abstract String getElementHead();
+	public abstract String getElementStart();
 
 	public abstract String getElementEnd();
 
 	@Override
 	public void doTag() throws JspException, IOException {
-		StringBuilder element = new StringBuilder(getElementHead());
+		StringBuilder element = new StringBuilder(getElementStart());
 
 		element.append(getInitAttribute());
 

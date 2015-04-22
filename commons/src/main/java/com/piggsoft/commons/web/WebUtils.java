@@ -43,7 +43,7 @@ public class WebUtils {
 	 * 默认资源文件的目录
 	 * {@value}
 	 */
-	public static final String DEFAULT_RESOURCE_HOME = "resource";
+	public static final String DEFAULT_RESOURCE_HOME = "resources";
 	/**
 	 * 默认theme文件的目录
 	 * {@value}

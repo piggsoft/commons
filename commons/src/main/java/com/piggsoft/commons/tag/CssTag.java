@@ -15,7 +15,7 @@ public class CssTag extends ElementTag{
 	
 	private String href;
 	
-	private static final String ELEMENT_HEAD = "<link ";
+	private static final String ELEMENT_START = "<link ";
 	
 	private static final String ELEMENT_END = " ></link>";
 	
@@ -43,8 +43,8 @@ public class CssTag extends ElementTag{
 	}
 
 	@Override
-	public String getElementHead() {
-		return ELEMENT_HEAD;
+	public String getElementStart() {
+		return ELEMENT_START;
 	}
 
 	@Override
